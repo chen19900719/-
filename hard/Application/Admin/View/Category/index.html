@@ -1,0 +1,151 @@
+<extend name="./Application/Admin/View/Layout/application.html"/>
+
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+
+                <div class="page-header">
+                    <h1>栏目管理
+                        <small>categories Manage</small>
+                    </h1>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">栏目列表</div>
+                    <div class="panel-body">
+                        <form action="" method="post" id="form">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th><input type="checkbox" id="checkAll">全选</th>
+                                    <th>排序</th>
+                                    <th>名称</th>
+                                    <th>栏目文章</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="categories" id="category">
+                                    <tr data-id="{{$category.id}}">
+                                        <td><input type="checkbox" class="check_destroy" name="destroy_checked[]"
+                                                   value="{{$category.id}}"/></td>
+                                        <td>
+                                            <input type="hidden" name="id[]" value="{{$category.id}}">
+                                            <input type="text" value="{{$category.sort_order}}" name="sort_order[]">
+                                        </td>
+                                        <td class="'name">{{$category.name}}</td>
+                                        <td class="content"><textarea name="content" rows="2" class="form-control">{{$category.content}}</textarea>
+                                        </td>
+                                        <td>
+                                            <a href="{{:U('edit',array('id'=>$category[id]))}}" class="edit">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </a>
+                                            <a data-toggle="modal" data-target="#destroy_link" class="destroy">
+                                                <span class="glyphicon glyphicon-trash"></span>
+                                            </a>
+                                            <a href="{{:U('create')}}" class="create">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <volist name="category.children" id="c">
+                                        <tr data-id="{{$c.id}}">
+                                            <td><input type="checkbox" class="check_destroy" name="destroy_checked[]"
+                                                       value="{{$c.id}}"/></td>
+                                            <td>
+                                                <input type="hidden" name="id[]" value="{{$c.id}}">
+                                                <input type="text" value="{{$c.sort_order}}" name="sort_order[]">
+                                            </td>
+                                            <td class="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$c.name}}</td>
+                                            <td class="content"><textarea name="content" rows="2" class="form-control">{{$c.content}}</textarea>
+                                            </td>
+                                            <td>
+                                                <a href="{{:U('edit',array('id'=>$c[id]))}}" class="edit">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                </a>
+                                                <a data-toggle="modal" data-target="#destroy_link" class="destroy">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                </a>
+                                                <a href="{{:U('create')}}" class="create">
+                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="panel-body"></div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a href="{{:U('create')}}" class="list-group-item list-group-item-success">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 新增 (add)
+                    </a>
+                    <a href="javascript: void 0;" class="list-group-item list-group-item-info sort_flinks">
+                        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> 排序 (sort)
+                    </a>
+                    <a href="javascript: void 0;"
+                       class="list-group-item list-group-item-warning del_all_flinks">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> 刪除 (delete)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 删除 -->
+    <div class="modal fade" id="destroy_link" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">删除友情链接</h4>
+                </div>
+                <div class="modal-body">
+                    <p>确定删除当前内容吗？</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <a class="btn btn-primary" id="confirm_destroy">确 定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</block>
+<block name="js">
+    <script>
+        $(function () {
+            //删除单条链接
+            $('.destroy').click(function () {
+                var id = $(this).parents("tr").data('id');
+                $("#confirm_destroy").attr("href", "/Admin/Category/destroy/id/" + id);
+            })
+            //多选
+            $("#checkAll").click(function () {
+                $(".check_destroy").prop("checked", this.checked);
+            })
+            //多选删除
+            $(".del_all_flinks").click(function () {
+                var length = $(".check_destroy:checked").length;
+                if (length == 0) {
+                    alert('你必须至少选中一条记录');
+                    return false;
+                }
+                $("#form").attr("action", "{{:U('destroy_checked')}}").submit();
+            })
+            //排序
+            $(".sort_flinks").click(function () {
+                $("#form").attr("action", "{{:U('sort_order')}}").submit();
+            })
+        })
+    </script>
+</block>
