@@ -28,7 +28,6 @@ class CategoryController extends CommonController
         $categories = $Category->all();
         $this->assign('categories', $categories);
         $this->display("Category/create");
-
     }
     public function store()
     {
@@ -61,16 +60,25 @@ class CategoryController extends CommonController
     public function destroy()
     {
         $id = I("get.id");
-        $articles = $this->article->where("category_id='$id'")->select();
-        $categories = $this->category->where("parent_id='$id'")->select();
-        if ($articles || $categories) {
-            $this->error('需要先删除文章或者二级栏目');
-        } else {
-            $this->category->delete($id);
-            $this->success('删除成功');
+//        $articles = $this->article->where("category_id='$id'")->select();
+//        $categories = $this->category->where("parent_id='$id'")->select();
+//        if ($articles || $categories) {
+//            $this->error('需要先删除文章');
+//        } else {
+//            $this->category->delete($id);
+//            $this->success('删除成功');
+//        }
+//        F('categories', NULL);
+        $Category = D("Category");
+        $check = $Category->do_destroy($id);
+        if (!$check['status']) {
+            $this->error($check['info']);
         }
+
+        $this->category->delete($id);
         F('categories', NULL);
-    }
+        $this->success('删除成功');
+      }
 
     public function destroy_checked()
     {

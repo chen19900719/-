@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="" class="navbar-brand">
+            <a href="<?php echo U('Index/index');?>" class="navbar-brand">
                 <span class='glyphicon glyphicon-home' aria-hidden='true'></span> 長樂未央
             </a>
         </div>
@@ -64,6 +64,11 @@
                         <span class='glyphicon glyphicon-wrench' aria-hidden='true'></span> 系统设置
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo U('Article/finder');?>">
+                        <span class='glyphicon glyphicon-wrench' aria-hidden='true'></span>系统附件
+                    </a>
+                </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -96,14 +101,11 @@
                             <div class="panel-heading">新增文章</div>
 
                             <div class="panel-body">
-
-
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">添加文章</a>
                                     </li>
                                 </ul>
-
                                 <!-- Tab panes -->
                                 <form class="form-horizontal" role="form" method="post" action="<?php echo U('update');?>">
                                     <input type="hidden" name="id" value="<?php echo ($article["id"]); ?>">

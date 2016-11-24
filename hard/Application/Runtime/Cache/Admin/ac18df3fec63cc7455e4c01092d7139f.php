@@ -99,10 +99,7 @@
                     <div class="col-md-10">
                         <div class="panel panel-default">
                             <div class="panel-heading">新增文章</div>
-
                             <div class="panel-body">
-
-
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">添加文章</a>

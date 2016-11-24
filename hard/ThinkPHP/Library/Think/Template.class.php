@@ -201,7 +201,7 @@ class  Template {
     // 解析模板中的布局标签
     protected function parseLayout($content) {
         // 读取模板中的布局标签
-        $find = preg_match('/'.$this->config['taglib_begin'].'layout\s(.+?)\s*?\/'.$this->config['taglib_end'].'/is',$content,$matches);
+        $find = preg_match('/'.$this->config['taglib_begin'].'Layout\s(.+?)\s*?\/'.$this->config['taglib_end'].'/is',$content,$matches);
         if($find) {
             //替换Layout标签
             $content    =   str_replace($matches[0],'',$content);

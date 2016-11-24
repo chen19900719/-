@@ -64,10 +64,10 @@ class UserController extends Controller
             {
                 $_SESSION=array();
                 if(isset($_COOKIE[session_name()])){
-                    setcookie('session_name()','',time() - 3600,'/');
+                    setcookie('session_name()','',time() - 3600,'/');//退出存贮的session
                 }
                 if(isset($_COOKIE['token'])){
-                    setcookie('session_name()','',time() - 3600,'/');
+                    setcookie('token','',time() - 3600,'/');//退出存贮的cookie
                 }
                 $this->success('您已经安全退出',U('User/login'));
             }

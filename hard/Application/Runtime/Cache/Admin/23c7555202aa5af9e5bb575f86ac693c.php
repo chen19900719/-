@@ -207,6 +207,8 @@
 
     <script src="/Public/ckeditor/ckeditor.js"></script>
     <script src="/Public/ckfinder/ckfinder.js"></script>
+    <script src="/Public/select2/js/select2.min.js"></script>
+    <script src="/Public/select2/js/i18n/zh-CN.js"></script>
     <script>
         CKEDITOR.replace('content',
                 {
@@ -217,6 +219,9 @@
                     filebrowserImageUploadUrl: '/Public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
                     filebrowserFlashUploadUrl: '/Public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
                 });
+        $('select').select2({
+            language: "zh-CN"
+        });
     </script>
 
 

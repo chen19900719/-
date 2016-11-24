@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/msj/css/ss_base.css-v=1517.css"
+          tppabs="http://css.meishij.net/n/css/ss_base.css?v=1517"/>
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/msj/css/main.css-v=1039.css"
+          tppabs="http://css.meishij.net/n/css/main.css?v=1039"/>
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/msj/css/index.css-v=2133.css"
+          tppabs="http://css.meishij.net/n/css/index.css?v=2133"/>
+    <script type="text/javascript" src="__PUBLIC__/msj/js/j.m.js" tppabs="http://css.meishij.net/n/js/j.m.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/msj/js/list.js-v=1108.js"
+            tppabs="http://css.meishij.net/n/js/list.js?v=1108"></script>
+    <script type="text/javascript" src="__PUBLIC__/msj/js/main.js-v=1507.js"
+            tppabs="http://css.meishij.net/n/js/main.js?v=1507"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=100">
+    <meta http-equiv="Expires" content="Tue, 15 Nov 2016 04:10:04 GMT">
+    <script type="text/javascript" src="m.js" tppabs="http://cbjs.baidu.com/js/m.js"></script>
+</head>
+<body>
+<div class="adinheader">
+    <div class="adinheader_w">
+        <script type="text/javascript">BAIDU_CLB_fillSlot("206520");</script>
+    </div>
+</div>
+<div class="header">
+    <div class="header_c">
+        <a href="index.htm" tppabs="http://www.meishij.net/" class="logo pngFix"></a>
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;">
+                <ul class="suggestionList" id="autoSuggestionsList"></ul>
+            </div>
+            <form class="search" action="http://so.meishi.cc/">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech=""
+                       value="请输入菜谱/食材/菜单/作者" autocomplete="off"
+                       onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');"
+                       onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
+                       href="javascript:if(confirm(%27http://www.meishij.net/ajax/ajaxtitle.php  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/ajax/ajaxtitle.php%27"
+                       tppabs="http://www.meishij.net/ajax/ajaxtitle.php" id="inputString"><input type="submit"
+                                                                                                  class="submit"
+                                                                                                  value="搜 索">
+            </form>
+        </div>
+        <div class="loginitem_h">
+            <script src="loginheader_n2.php-_=1479181204.js"
+                    tppabs="http://reply.meishij.net/ajax/loginheader_n2.php?_=1479181204"></script>
+        </div>
+    </div>
+</div>
+<div class="nav">
+    <ul id="main_nav">
+        <li class=""><a href="http://hard.app/Home/Index/index.html" class="link pngFix"><strong>首页</strong></a>
+        </li>
+        <volist name="categories" id="category">
+            <li class="hasmore ">
+                <a href="{{$category.link}}" class="link pngFix"><strong>{{$category.name}}</strong></a>
+                <div class="dw clearfix">
+                    <div class="dww clearfix dww_cpdq">
+                        <div class="dwitem clearfix pngFix">
+                            <dl class="clearfix">
+                                <volist name="category.children" id="c">
+                                    <dd><a href="{{$c.link}}">{{$c.name}}</a></dd>
+                                </volist>
+                            </dl>
+                        </div>
+                        <div class="bgitem"></div>
+                    </div>
+                </div>
+            </li>
+        </volist>
+        <li class=""><a href="{{:U('chat')}}" class="link pngFix"><strong>聊天室</strong></a>
+        </li>
+    </ul>
+</div>
+<div>
+    <block name="css"></block>
+    <block name="content"></block>
+</div>
+<div style="display:none;">
+    <script src="__PUBLIC__/msj/js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.nav ul li').click(function () {
+                $(this).addClass('current').siblings().removeClass('current');
+            })
+            $('.nav ul li').hover(function () {
+                $(this).children('.clearfix').show();
+            }, function () {
+                $(this).children('.clearfix').hide();
+            })
+        })
+    </script>
+    <block name="js"></block>
+</div>
+</body>
+</html>

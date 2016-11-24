@@ -1,0 +1,16 @@
+
+/*logo*/
+a.bfd_img_logo{float:right;display:block;width:101px;height:13px;margin:5px 3px 0 0;background:url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat;_background:url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat;overflow:hidden;}
+a.bfd_img_logo:hover{background:url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat 0 -14px;_background:url(http://static.baifendian.com/themes/logo/bfd_logo_ch.gif) no-repeat 0 -14px;}
+
+.bfd_box_vav h2
+{
+color:#222222;
+display:block;
+font-family:Microsoft Yahei;
+font-size:24px;
+height:120px;
+line-height:120px;
+position:relative;
+text-align:center;
+}

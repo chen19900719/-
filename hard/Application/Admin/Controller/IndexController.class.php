@@ -32,7 +32,4 @@ class IndexController extends CommonController
         $this->assign('server_info', $server_info);
         $this->display();
     }
-
-
-
 }

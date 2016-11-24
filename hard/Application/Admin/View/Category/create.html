@@ -34,7 +34,7 @@
                                             <div class="form-group">
                                                 <label for="parent_id" class="col-sm-2 control-label">父栏目</label>
                                                 <div class="col-sm-10">
-                                                    <select class="form-control" id="parent_id" name="parent_id" >
+                                                    <select class="form-control" id="parent_id" name="parent_id">
                                                         <volist name="categories" id="category">
                                                             <option value="{{$category.id}}">{{$category.name}}
                                                             </option>
@@ -125,6 +125,8 @@
 <block name="js">
     <script src="__PUBLIC__/ckeditor/ckeditor.js"></script>
     <script src="__PUBLIC__/ckfinder/ckfinder.js"></script>
+    <script src="__PUBLIC__/select2/js/select2.min.js"></script>
+    <script src="__PUBLIC__/select2/js/i18n/zh-CN.js"></script>
     <script>
         CKEDITOR.replace('content',
                 {
@@ -135,6 +137,9 @@
                     filebrowserImageUploadUrl: '__PUBLIC__/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
                     filebrowserFlashUploadUrl: '__PUBLIC__/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
                 });
+        $('select').select2({
+            language: "zh-CN"
+        });
     </script>
 
 

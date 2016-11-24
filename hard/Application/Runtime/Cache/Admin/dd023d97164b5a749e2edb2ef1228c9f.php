@@ -75,7 +75,6 @@
             $(".code").attr('src', src);
         }
         set_code();
-
         $(".code").click(function () {
             set_code();
         })

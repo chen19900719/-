@@ -22,5 +22,26 @@ class CategoryModel extends RelationModel
         return F('categories');
     }
 
+    function do_destroy($id)
+    {
+        $result = array();
+        $children = $this->where("parent_id='$id'")->find();
+        if ($children) {
+            $result['info'] = "必须先删除子栏目";
+            $result['status'] = 0;
+            return $result;
+        }
+        $Aritcle = M('Article');
+        $article = $Aritcle->where("category_id='$id'")->find();
+        if ($article) {
+            $result['info'] = "必须先删除文章";
+            $result['status'] = 0;
+            return $result;
+        }
+
+        $result['status'] = 1;
+        return $result;
+
+    }
 
 }

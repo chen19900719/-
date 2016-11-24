@@ -10,4 +10,15 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/Public/msj/js/c.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/ds.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/EvPng.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/hm.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/hm.js-01dd6a7c493607e115255b7e72de5f40.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/j.m.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/j.m.js-v=1551.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/list.js" />
+    <file url="file://$PROJECT_DIR$/Public/msj/js/list.js-v=1108.js" />
+  </component>
 </project>

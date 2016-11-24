@@ -21,7 +21,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="" class="navbar-brand">
+            <a href="<?php echo U('Index/index');?>" class="navbar-brand">
                 <span class='glyphicon glyphicon-home' aria-hidden='true'></span> 長樂未央
             </a>
         </div>
@@ -58,6 +58,11 @@
                 <li>
                     <a href="<?php echo U('System/config');?>">
                         <span class='glyphicon glyphicon-wrench' aria-hidden='true'></span> 系统设置
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo U('Article/finder');?>">
+                        <span class='glyphicon glyphicon-wrench' aria-hidden='true'></span>系统附件
                     </a>
                 </li>
             </ul>
