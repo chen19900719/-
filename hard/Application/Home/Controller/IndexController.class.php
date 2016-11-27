@@ -40,12 +40,18 @@ class IndexController extends Controller
         $category_id = I("get.id");
         $categories = $this->category->all();
         $children = $this->category->where("parent_id='$category_id'")->getField('id', true);
+        $count = $this->article->count();// 查询满足要求的总记录数
+        $Page = new \Think\Page($count, 3);// 实例化分页类
+        $show = $Page->show();// 分页显示
         if ($children) {
             $data['category_id'] =  array('in', $children);;
-            $articles = $this->article->where($data)->select();
+            // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+            $articles = $this->article->where($data)->order('id')->limit($Page->firstRow . ',' . $Page->listRows)->select();
         } else {
-            $articles = $this->article->where("category_id='$category_id'")->select();
+            // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+            $articles = $this->article->where("category_id='$category_id'")->order('id')->limit($Page->firstRow . ',' . $Page->listRows)->select();
         }
+        $this->assign('page', $show);// 赋值分页输出
         $this->assign('categories', $categories);
         $this->assign('articles', $articles);
         $this->display("Lists/lists");

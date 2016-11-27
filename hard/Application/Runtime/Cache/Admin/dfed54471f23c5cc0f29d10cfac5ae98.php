@@ -114,7 +114,7 @@
                                                 <label for="parent_id" class="col-sm-2 control-label">父栏目</label>
                                                 <div class="col-sm-10">
                                                     <select class="form-control" id="parent_id">
-                                                        <?php if(is_array($categories)): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$c): $mod = ($i % 2 );++$i;?><option value="<?php echo ($c["id"]); ?>"><?php echo ($c["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                                        <?php if(is_array($categories)): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$c): $mod = ($i % 2 );++$i;?><option value="<?php echo ($c["id"]); ?>"<?php if(($c["id"]) == $category["parent_id"]): ?>selected<?php endif; ?>><?php echo ($c["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                                     </select>
                                                 </div>
                                             </div>

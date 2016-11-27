@@ -158,112 +158,8 @@
     </div>
     <div class="main_w clearfix">
         <div class="main">
-            <div class="listnav clearfix" id="listnav">
-                <ul class="listnav_ul" id="listnav_ul">
-                    <li disable="1"><a class="link">我的美食属性（未开放）</a></li>
-                    <li class="current hover"><a href="index-1.htm" tppabs="http://www.meishij.net/chufang/diy/"
-                                                 class="link">家常菜谱</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/china-food/caixi/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/china-food/caixi/%27"
-                           tppabs="http://www.meishij.net/china-food/caixi/" class="link">中华菜系</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/china-food/xiaochi/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/china-food/xiaochi/%27"
-                           tppabs="http://www.meishij.net/china-food/xiaochi/" class="link">各地小吃</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/guowaicaipu1/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/guowaicaipu1/%27"
-                           tppabs="http://www.meishij.net/chufang/diy/guowaicaipu1/" class="link">外国菜谱</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/hongpei/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/hongpei/%27"
-                           tppabs="http://www.meishij.net/hongpei/" class="link">烘焙</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/pengren/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/pengren/%27"
-                           tppabs="http://www.meishij.net/pengren/" class="link">厨房百科</a></li>
-                    <li>
-                        <a href="javascript:if(confirm(%27http://www.meishij.net/shicai/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/shicai/%27"
-                           tppabs="http://www.meishij.net/shicai/" class="link">食材百科</a></li>
-                </ul>
-                <div class="listnav_con clearfix" id="listnav_con_c">
-                    <dl class="listnav_dl_style1 w990 bb1 clearfix">
-                        <dt>家常菜谱</dt>
-                        <dd class="current"><h1><a href="index-2.htm"
-                                                   tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/">家常菜</a>
-                        </h1>
-                        </dd>
-                        <dd><a href="index-6.htm" tppabs="http://www.meishij.net/chufang/diy/sijiacai/">私家菜</a></dd>
-                        <dd><a href="index-3.htm" tppabs="http://www.meishij.net/chufang/diy/langcaipu/">凉菜</a></dd>
-                        <dd><a href="index-8.htm" tppabs="http://www.meishij.net/chufang/diy/haixian/">海鲜</a></dd>
-                        <dd><a href="index-7.htm" tppabs="http://www.meishij.net/chufang/diy/recaipu/">热菜</a></dd>
-                        <dd><a href="index-13.htm" tppabs="http://www.meishij.net/chufang/diy/tangbaocaipu/">汤粥</a></dd>
-                        <dd><a href="index-4.htm" tppabs="http://www.meishij.net/chufang/diy/sushi/">素食</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangliaozhanliao/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangliaozhanliao/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/jiangliaozhanliao/">酱料蘸料</a></dd>
-                        <dd><a href="index-16.htm" tppabs="http://www.meishij.net/chufang/diy/weibolucaipu/">微波炉</a>
-                        </dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/huoguo/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/huoguo/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/huoguo/">火锅底料</a></dd>
-                        <dd><a href="index-12.htm" tppabs="http://www.meishij.net/chufang/diy/tianpindianxin/">甜品点心</a>
-                        </dd>
-                        <dd><a href="index-15.htm" tppabs="http://www.meishij.net/chufang/diy/gaodianxiaochi/">糕点主食</a>
-                        </dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/ganguo/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/ganguo/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/ganguo/">干果制作</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/rujiangcai/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/rujiangcai/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/rujiangcai/">卤酱</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/yinpin/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/yinpin/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/yinpin/">时尚饮品</a></dd>
-                    </dl>
-                    <dl class="listnav_dl_style1 w300 br1 clearfix">
-                        <dt>每日三餐</dt>
-                        <dd><a href="index-10.htm" tppabs="http://www.meishij.net/chufang/diy/zaocan/">早餐</a></dd>
-                        <dd><a href="index-11.htm" tppabs="http://www.meishij.net/chufang/diy/wucan/">午餐</a></dd>
-                        <dd><a href="index-5.htm" tppabs="http://www.meishij.net/chufang/diy/wancan/">晚餐</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/xiawucha/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/xiawucha/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/xiawucha/">下午茶</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/yexiao/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/yexiao/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/yexiao/">夜宵</a></dd>
-                    </dl>
-                    <dl class="listnav_dl_style1 w330 br1 clearfix">
-                        <dt>人群</dt>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/laonian/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/laonian/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/laonian/">老年人</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/chanfu/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/chanfu/%27"
-                               tppabs="http://www.meishij.net/chufang/diy/chanfu/">产妇</a></dd>
-                        <dd><a href="index-9.htm" tppabs="http://www.meishij.net/chufang/diy/yunfu/">孕妇</a></dd>
-                        <dd><a href="index-14.htm"
-                               tppabs="http://www.meishij.net/chufang/diy/baobaocaipu/">宝宝食谱-婴儿食谱</a>
-                        </dd>
-                    </dl>
-                    <dl class="listnav_dl_style1 w360 clearfix">
-                        <dt>功效</dt>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/yaoshanshiliao/jibingtiaoli/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/yaoshanshiliao/jibingtiaoli/%27"
-                               tppabs="http://www.meishij.net/yaoshanshiliao/jibingtiaoli/">疾病调理</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/yaoshanshiliao/gongnengxing/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/yaoshanshiliao/gongnengxing/%27"
-                               tppabs="http://www.meishij.net/yaoshanshiliao/gongnengxing/">功能性调理</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/yaoshanshiliao/zangfu/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/yaoshanshiliao/zangfu/%27"
-                               tppabs="http://www.meishij.net/yaoshanshiliao/zangfu/">脏腑调理</a></dd>
-                        <dd>
-                            <a href="javascript:if(confirm(%27http://www.meishij.net/yaoshanshiliao/renqunshanshi/  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/yaoshanshiliao/renqunshanshi/%27"
-                               tppabs="http://www.meishij.net/yaoshanshiliao/renqunshanshi/">人群膳食</a></dd>
-                    </dl>
-                </div>
-            </div>
-            <div class="bbtitles">家常好味道，给你家一般的温暖<span class="paixu"><a
-                    href="javascript:if(confirm(%27http://www.meishij.net/list.php?sortby=update&lm=270  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/list.php?sortby=update&lm=270%27"
-                    tppabs="http://www.meishij.net/list.php?sortby=update&lm=270" class="current">最新</a> | <a
-                    href="javascript:if(confirm(%27http://www.meishij.net/list.php?sortby=renqi&lm=270  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a path excluded by the site\%27s Robot Exclusion parameters.  (Teleport Pro\%27s compliance with this system is optional; see the Project Properties, Netiquette page.)  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/list.php?sortby=renqi&lm=270%27"
-                    tppabs="http://www.meishij.net/list.php?sortby=renqi&lm=270">最热</a></span></div>
+
+            <div class="bbtitles">家常好味道，给你家一般的温暖</div>
             <div class="liststyle1_w clearfix">
                 <div class="fliterstyle1" id="fliterstyle1">
                     <div class="fliterstyle1_main">
@@ -744,25 +640,7 @@
                     </div>
                 </div><!-- listtyle1_list end -->
                 <div class="listtyle1_page">
-                    <div class="listtyle1_page_w"><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=1  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=1%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=1" class="current">1</a><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2" class="">2</a><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=3  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=3%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=3" class="">3</a><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=4  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=4%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=4" class="">4</a><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=5  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=5%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=5"
-                            class="">5</a><span>...</span><a
-                            href="javascript:if(confirm(%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2%27"
-                            tppabs="http://www.meishij.net/chufang/diy/jiangchangcaipu/?&page=2"
-                            class="next">下一页</a><span class="gopage"><form
-                            action="http://www.meishij.net/list.php"><input type="hidden" value="270"
-                                                                            name="lm"/>共56页，到第 <input
-                            type="text" class="text" value="2" name="page"> 页 <input type="submit" class="submit"
-                                                                                     value="确定"></form></span></div>
+                    <div class="listtyle1_page_w"><?php echo ($page); ?></div>
                 </div>
             </div>
         </div>

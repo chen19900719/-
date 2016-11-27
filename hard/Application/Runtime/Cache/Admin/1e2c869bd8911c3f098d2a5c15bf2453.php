@@ -85,7 +85,6 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-10">
-
                 <div class="page-header">
                     <h1>友情链接
                         <small>友情链接大全</small>
@@ -93,50 +92,51 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">网址信息</div>
-                    <form action="" method="post" id="form">
-                        <table class="table ">
-                            <thead>
-                            <tr>
-                                <th><input type="checkbox" id="checkAll"></th>
-                                <th>序号</th>
-                                <th>名称</th>
-                                <th>网址</th>
-                                <th>操作</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php if(is_array($links)): $i = 0; $__LIST__ = $links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$l): $mod = ($i % 2 );++$i;?><tr>
-                                <tr data-id="<?php echo ($l["id"]); ?>">
-                                    <td><input type="checkbox" class="check_destroy" name="destroy_checked[]"
-                                               value="<?php echo ($l["id"]); ?>"></td>
-                                    <td class="'name"><?php echo ($l["name"]); ?></td>
-                                    <td class="url">
-                                        <a href="<?php echo ($l["url"]); ?>" target="_blank">
-                                            <?php echo ($l["url"]); ?>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <input type="hidden" name="id[]" value="<?php echo ($l["id"]); ?>">
-                                        <input type="text" value="<?php echo ($l["sort_order"]); ?>" name="sort_order[]"></td>
-                                    <td>
-                                        <a data-toggle="modal" data-target="#edit_link" class="edit">
-                                            <span class="glyphicon glyphicon-pencil"></span>
-                                        </a>
-                                        <a data-toggle="modal" data-target="#destroy_link" class="destroy">
-                                            <span class="glyphicon glyphicon-trash"></span>
-                                        </a>
-                                    </td>
+                    <div class="panel-body">
+                        <form action="" method="post" id="form">
+                            <table class="table ">
+                                <thead>
+                                <tr>
+                                    <th><input type="checkbox" id="checkAll"></th>
+                                    <th>名称</th>
+                                    <th>网址</th>
+                                    <th>序号</th>
+                                    <th>操作</th>
                                 </tr>
-                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                            </tbody>
-                        </table>
-                    </form>
-
-                    <div class="panel-body"></div>
+                                </thead>
+                                <tbody>
+                                <?php if(is_array($links)): $i = 0; $__LIST__ = $links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$l): $mod = ($i % 2 );++$i;?><tr>
+                                    <tr data-id="<?php echo ($l["id"]); ?>">
+                                        <td><input type="checkbox" class="check_destroy" name="destroy_checked[]"
+                                                   value="<?php echo ($l["id"]); ?>"></td>
+                                        <td class="'name"><?php echo ($l["name"]); ?></td>
+                                        <td class="url">
+                                            <a href="<?php echo ($l["url"]); ?>" target="_blank">
+                                                <?php echo ($l["url"]); ?>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <input type="hidden" name="id[]" value="<?php echo ($l["id"]); ?>">
+                                            <input type="text" value="<?php echo ($l["sort_order"]); ?>" name="sort_order[]"
+                                                   class="sort_order"></td>
+                                        <td>
+                                            <a data-toggle="modal" data-target="#edit_link" data-id="<?php echo ($l["id"]); ?>"
+                                               class="edit">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </a>
+                                            <a data-toggle="modal" data-target="#destroy_link" class="destroy">
+                                                <span class="glyphicon glyphicon-trash"></span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="col-md-2">
-
                 <div class="list-group">
                     <a class="list-group-item list-group-item-success"
                        data-toggle="modal" data-target="#myModal">
@@ -201,16 +201,15 @@
                         <div class="form-group">
                             <label for="create_name" class="col-sm-2 control-label">链接名称</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="name" id="edit_name" placeholder="链接名称">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="链接名称">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="create_name" class="col-sm-2 control-label">链接网址</label>
                             <div class="col-sm-10">
-                                <input type="url" class="form-control" name="url" id="edit_url" placeholder="链接地址">
+                                <input type="url" class="form-control" name="url" id="url" placeholder="链接地址">
                             </div>
                         </div>
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -241,8 +240,6 @@
         </div>
     </div>
 
-
-
 </div>
 
 
@@ -253,16 +250,16 @@
     <script>
         $(function () {
             //编辑
-            $(".edit").click(function () {
-                var data = {
-                    id: $(this).parents("tr").data('id'),
-                    name: $(this).parent().siblings('.name').text(),
-                    url: $.trim($(this).parent().siblings('.url').text())
-                }
-                $("#edit_id").val(data.id);
-                $("#edit_name").val(data.name);
-                $("#edit_url").val(data.url);
-            })
+//            $(".edit").click(function () {
+//                var data = {
+//                    id: $(this).parents("tr").data('id'),
+//                    name: $(this).parent().siblings('.name').text(),
+//                    url: $.trim($(this).parent().siblings('.url').text())
+//                }
+//                $("#edit_id").val(data.id);
+//                $("#edit_name").val(data.name);
+//                $("#edit_url").val(data.url);
+//            })
             //删除单条链接
             $('.destroy').click(function () {
                 var id = $(this).parents("tr").data('id');
@@ -270,24 +267,49 @@
             })
             //多选
             $("#checkAll").click(function () {
-                $(".check_destroy").prop("checked",this.checked);
+                $(".check_destroy").prop("checked", this.checked);
             })
             //多选删除
-            $(".del_all_flinks").click(function(){
+            $(".del_all_flinks").click(function () {
                 var length = $(".check_destroy:checked").length;
-                if(length==0){
+                if (length == 0) {
                     alert('你必须至少选中一条记录');
                     return false;
                 }
-                $("#form").attr("action","<?php echo U('destroy_checked');?>").submit();
+                $("#form").attr("action", "<?php echo U('destroy_checked');?>").submit();
             })
             //排序
-            $(".sort_flinks").click(function(){
-                $("#form").attr("action","<?php echo U('sort_order');?>").submit();
-
-
+            $(".sort_flinks").click(function () {
+                $("#form").attr("action", "<?php echo U('sort_order');?>").submit();
             })
-
+            //改变序号
+            $(".sort_order").change(function () {
+                var id = $(this).parents("tr").data('id');
+                var sort_order = $(this).val();
+                var _this = $(this);
+                $.post("<?php echo U('sort');?>", {
+                    id: id,
+                    sort_order: sort_order
+                }, function (data) {
+                    console.log(data);
+                    _this.val(data.sort_order);
+                }, "json")
+                return false;
+            })
+            //编辑
+            $(".edit").click(function () {
+                var id = $(this).data('id');
+                console.log(id);
+                $.post("<?php echo U('edit');?>", {
+                    id: id,
+                }, function (data) {
+                    console.log(data);
+                    $("#edit_id").val(data.link.id);
+                    $("#name").val(data.link.name);
+                    $("#url").val(data.link.url);
+                }, "json")
+                //return false;
+            })
         })
     </script>
 

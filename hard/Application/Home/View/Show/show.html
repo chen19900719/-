@@ -1,5 +1,20 @@
 <extend name="./Application/Home/View/Layout/application.html"/>
-
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/msj/css/share_style0_16.css">
+    <link rel="stylesheet" href="__PUBLIC__/msj/css/share_popup.css">
+    <link rel="stylesheet" href="__PUBLIC__/msj/css/select_share.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="__PUBLIC__/msj/css/ss_base.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="__PUBLIC__/msj/css/main.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="__PUBLIC__/msj/css/list.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="__PUBLIC__/msj/css/content.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="__PUBLIC__/msj/css/tipswindown.css">
+    <link href="__PUBLIC__/msj/css/bfd_style.css" rel="stylesheet" type="text/css">
+</block>
 
 <block name="content">
     <body style=""><!--[if IE 6]>
@@ -56,17 +71,7 @@
     </div>
     <div class="main_search main_search_slideUp pngFix" slideup="1" style="bottom: -56px; padding-top: 9px;"
          id="main_search">
-        <div class="main_search_w">
-            <div class="searchform_div">
-                <form action="http://so.meishi.cc/" target="_blank"><input type="text" class="text" name="q"
-                                                                           x-webkit-speech="" autocomplete="off"
-                                                                           id="inputString"
-                                                                           placeholder="苏式五香熏鱼的做法"><input
-                        type="submit" class="submit" value="搜 索"></form>
-            </div>
-            <span id="searchslideup_btn" class="pngFix" style="background-position:0px -48px;">自动收缩</span>
-            <!--        <a href="http://www.meishij.net" class="bottomlogo_60"><img src="http://static.meishij.net/images/bottomlogo_60.png"></a>-->
-            <!--		--><!--<span id="searchslideup_btn" class="pngFix"--><!---->自动收缩--&gt;    </div>
+
     </div>
     <div class="bottom_back_top_top bottom_back_top_top_slideUp" id="bottom_back_top_top"
          style="left: 1169px; display: block; bottom: 20px;"><a
@@ -149,20 +154,6 @@
                         </div>
                         <div class="info3">
                             <div class="user">
-                                <a target="_blank" id="tongji_author_img" href="http://i.meishi.cc/cook.php?id=2811207"
-                                   class="img"><img
-                                        src="__PUBLIC__/msj/images/t2811207_146435735412769.jpg"><span
-                                        class="masker pngFix"></span></a>
-                                <div class="info">
-                                    <h4>
-                                        <a id="tongji_author" target="_blank"
-                                           href="http://i.meishi.cc/cook.php?id=2811207">meggy跳舞的苹果</a>
-                                        <a target="_blank" class="v_small" href="http://i.meishi.cc/expert/" title="达人"
-                                           _hover-ignore="1"></a>
-                                    </h4>
-                                    <span>菜谱：375　/　关注：15　/　粉丝：6853</span>
-                                    <strong>2016-11-14　/　<em id="viewclicknum"></em>人看过</strong>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,204 +165,6 @@
                         <p><strong>“</strong>{{$a.content}}<strong>”</strong>
                         </p>
                         <strong class="cpc_h2">用料</strong>
-                        <div class="materials_box">
-                            <div class="yl zl clearfix">
-                                <h3><a href="javascript:;" title="苏式五香熏鱼的主料">主料</a></h3>
-                                <ul class="clearfix">
-                                    <li class=" bb0"><a target="_blank" href="http://www.meishij.net/%E8%8D%89%E9%B1%BC"
-                                                        class="img"><img
-                                            src="__PUBLIC__/msj/images/e814be54ec6e3b870b4fbf7a33239896_60x60.jpg"></a>
-                                        <div class="c"><h4><a target="_blank"
-                                                              href="http://www.meishij.net/%E8%8D%89%E9%B1%BC">草鱼</a><span>1条</span>
-                                        </h4><a href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#"
-                                                class="fortb"
-                                                data-type="2" biz-keyword="草鱼 鲜" biz-category="50016422" data-style="1"
-                                                data-tmpl="290x380" target="_blank"></a></div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="yl fuliao clearfix">
-                                <h3><a href="javascript:;" title="苏式五香熏鱼的辅料">辅料</a></h3>
-                                <ul class="clearfix">
-                                    <li class=""><h4><a href="javascript:;">腌鱼用生抽</a></h4><span>30克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="腌鱼用生抽 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0"><h4><a href="javascript:;">腌鱼用酱油</a></h4><span>30克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="腌鱼用酱油 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class=""><h4><a href="javascript:;">腌鱼用盐</a></h4><span>1克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="腌鱼用盐 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0"><h4><a href="javascript:;">腌鱼用料酒</a></h4><span>20克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="腌鱼用料酒 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class=""><h4><a href="javascript:;">腌鱼用生姜</a></h4><span>1块</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="腌鱼用生姜 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0"><h4><a href="javascript:;">熏鱼用生抽</a></h4><span>30克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用生抽 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class=""><h4><a href="javascript:;">熏鱼用酱油</a></h4><span>20克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用酱油 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0"><h4><a href="javascript:;">熏鱼用盐</a></h4><span>1克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用盐 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class=""><h4><a href="javascript:;">熏鱼用冰糖</a></h4><span>15克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用冰糖 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0"><h4><a href="javascript:;">熏鱼用五香粉</a></h4><span>8克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用五香粉 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class=""><h4><a href="javascript:;">熏鱼用黑胡椒粉</a></h4><span>2克</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用黑胡椒粉 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                    <li class="br0 bb0"><h4><a href="javascript:;">熏鱼用清水</a></h4><span>少许</span><a
-                                            href="http://www.meishij.net/zuofa/sushiwuxiangxunyu_1.html#" class="fortb"
-                                            data-type="2" biz-keyword="熏鱼用清水 鲜" biz-category="50016422" data-style="1"
-                                            data-tmpl="290x380" target="_blank"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="measure">
-                        <h2 class="cpc_h2">苏式五香熏鱼的做法</h2>
-                        <div class="editnew edit">
-                            <div class="content clearfix">
-                                <em class="step">1.</em>
-                                <div class="c">
-                                    <p>草鱼去鳞、去鳃、去除内脏及腹内黑腹</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911676748390.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">2.</em>
-                                <div class="c">
-                                    <p>头部向下一厘米的地方深切一刀，尾部10公分处切一刀，抽出“腥线”，另一侧也有一根，同样方法抽出</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911676943218.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">3.</em>
-                                <div class="c">
-                                    <p>去头去尾，分成三段</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677100647.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">4.</em>
-                                <div class="c">
-                                    <p>将中段切成厚约2厘米的块儿</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677267102.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">5.</em>
-                                <div class="c">
-                                    <p>鱼块放入盆中，倒入生抽、酱油、料酒、盐、姜片</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677303777.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">6.</em>
-                                <div class="c">
-                                    <p>混合均匀，充分入味，腌3小时左右</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677400259.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">7.</em>
-                                <div class="c">
-                                    <p>腌鱼的时候，来做一下熏鱼汁：生抽30克，酱油20克，盐1克，冰糖15克，五香粉8克，黑胡椒粉2克，清水适量</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677515050.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">8.</em>
-                                <div class="c">
-                                    <p>混合后，倒入小锅中，小火煮开5分钟，然后晾凉备用</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677671572.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">9.</em>
-                                <div class="c">
-                                    <p>油锅中多放些油，待油温热至8成时，将腌好的鱼块用厨房用纸或者手布擦干后入油锅中，炸至边缘金黄</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677729609.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">10.</em>
-                                <div class="c">
-                                    <p>将所有的鱼块都炸好</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677822437.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">11.</em>
-                                <div class="c">
-                                    <p>鱼块全部入油锅中，复炸两分钟，鱼块焦香后，捞入大碗中</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911677978856.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">12.</em>
-                                <div class="c">
-                                    <p>12. 将熏鱼汁均匀在浇在鱼块上，充分入味后便可食用</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911678004506.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <div class="content clearfix">
-                                <em class="step">13.</em>
-                                <div class="c">
-                                    <p>很香</p>
-                                    <p><img class="conimg"
-                                            src="__PUBLIC__/msj/images/n2811207_147911702873253.jpg"
-                                            alt=""></p></div>
-                            </div>
-                            <p><img style="margin:0 0 0 100px;" class="conimg" border="0"
-                                    src="__PUBLIC__/msj/images/n2811207_147911701728897.jpg">
-                            </p>
-                            <p><img style="margin:0 0 0 100px;" class="conimg" border="0"
-                                    src="__PUBLIC__/msj/images/n2811207_147911701958024.jpg">
-                            </p>
-                            <p><img style="margin:0 0 0 100px;" class="conimg" border="0"
-                                    src="__PUBLIC__/msj/images/n2811207_147911702047801.jpg">
-                            </p>
-                            <p><img style="margin:0 0 0 100px;" class="conimg" border="0"
-                                    src="__PUBLIC__/msj/images/n2811207_147911702159349.jpg">
-                            </p>
-                            <h2 class="cpc_h2">烹饪技巧</h2>
-                            <p style="padding-left:100px;">鱼肉炸后易碎，所以要小心操作；<br>
-                                熏鱼汁可以根据自己的口味进行调整，如果喜食辣的，可以放两个干红辣椒同煮；<br>
-                                熏鱼汁可多可少，鱼吃完后，鱼汁还可以重新加热用来拌面吃；<br>
-                            </p></div>
-                        <span class="authors_copy_right"><strong>苏式五香熏鱼的版权归作者所有，没有作者本人的书面许可任何人不得转载或使用其中整体或任何部分内容。</strong><a
-                                target="_blank" title="打印苏式五香熏鱼"
-                                href="http://www.meishi.cc/print.php?id=1803039">打印菜谱</a></span>
                     </div>
                     <div class="cp_comment">
                         <script type="text/javascript">
@@ -1111,16 +904,6 @@
     <!--[if IE 6]>
     <script type="text/javascript" src="http://css.meishij.net/n/js/EvPng.js"></script>
     <script language="javascript" type="text/javascript">EvPNG.fix(".pngFix,.pngFix:hover");</script><![endif]-->
-    <link rel="stylesheet" type="text/css" media="all"
-          href="__PUBLIC__/msj/css/ss_base.css">
-    <link rel="stylesheet" type="text/css" media="all"
-          href="__PUBLIC__/msj/css/main.css">
-    <link rel="stylesheet" type="text/css" media="all"
-          href="__PUBLIC__/msj/css/list.css">
-    <link rel="stylesheet" type="text/css" media="all"
-          href="__PUBLIC__/msj/css/content.css">
-    <link rel="stylesheet" type="text/css" media="all"
-          href="/tipswindown.css">
     <script type="text/javascript" src="__PUBLIC__/msj/js/j.m.js.下载"></script>
     <script type="text/javascript" src="__PUBLIC__/msj/js/main.js(1).下载"></script>
     <script type="text/javascript" src="__PUBLIC__/msj/js/list.js.下载"></script>
@@ -1138,7 +921,6 @@
     <script type="text/javascript" async="" charset="utf-8"
             src="__PUBLIC__/msj/js/meishijie.js.下载"></script>
     <script src="__PUBLIC__/msj/js/share.js.下载"></script>
-    <link href="__PUBLIC__/msj/css/bfd_style.css" rel="stylesheet" type="text/css">
     <script id="" src="/StdID.do" charset="utf-8"></script>
     <script src="__PUBLIC__/msj/js/bcore.min.js.下载"
             type="text/javascript"></script>
@@ -1148,7 +930,5 @@
     <script src="__PUBLIC__/msj/js/AddCat.do" charset="utf-8"></script>
     <script src="__PUBLIC__/msj/js/P.do" charset="utf-8"></script>
     <script src="/PageView.do" charset="utf-8"></script>
-    <link rel="stylesheet" href="__PUBLIC__/msj/css/share_style0_16.css">
-    <link rel="stylesheet" href="__PUBLIC__/msj/css/share_popup.css">
-    <link rel="stylesheet" href="__PUBLIC__/msj/css/select_share.css">
+
 </block>
