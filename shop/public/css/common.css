@@ -1,0 +1,206 @@
+.is_something span {
+    cursor: pointer;
+}
+
+.is_something .am-icon-check {
+    color: #3bb4f2;
+}
+
+.is_something .am-icon-close {
+    color: #dd514c;
+}
+
+
+/* ==========================================================================
+   Component: Pagination
+ ============================================================================ */
+.pagination {
+    padding-left: 0;
+    margin: 1.5rem 0;
+    list-style: none;
+    color: #999999;
+    text-align: left;
+}
+.pagination:before,
+.pagination:after {
+    content: " ";
+    display: table;
+}
+.pagination:after {
+    clear: both;
+}
+.pagination > li {
+    display: inline-block;
+}
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    margin-right: 0;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    background-color: #eeeeee;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+    cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #999999;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.pagination .pagination-prev {
+    float: left;
+}
+.pagination .pagination-prev a {
+    border-radius: 0;
+}
+.pagination .pagination-next {
+    float: right;
+}
+.pagination .pagination-next a {
+    border-radius: 0;
+}
+.pagination-centered {
+    text-align: center;
+}
+.pagination-right {
+    text-align: right;
+}
+/* ==========================================================================
+   Component: Aniamtion
+ ============================================================================ */
+[class*="animation-"] {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/* Hide animated element if scrollSpy is used */
+@media screen {
+    .cssanimations [data-scrollspy*="animation"] {
+        opacity: 0;
+    }
+}
+/* Fade */
+.animation-fade {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+/* Scale */
+.animation-scale-up {
+    -webkit-animation-name: scale-up;
+    animation-name: scale-up;
+}
+.animation-scale-down {
+    -webkit-animation-name: scale-down;
+    animation-name: scale-down;
+}
+/* Slide */
+.animation-slide-top {
+    -webkit-animation-name: slide-top;
+    animation-name: slide-top;
+}
+.animation-slide-bottom {
+    -webkit-animation-name: slide-bottom;
+    animation-name: slide-bottom;
+}
+.animation-slide-left {
+    -webkit-animation-name: slide-left;
+    animation-name: slide-left;
+}
+.animation-slide-right {
+    -webkit-animation-name: slide-right;
+    animation-name: slide-right;
+}
+.animation-slide-top-fixed {
+    -webkit-animation-name: slide-top-fixed;
+    animation-name: slide-top-fixed;
+}
+/* Shake */
+.animation-shake {
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}
+/* Spin */
+.animation-spin {
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+/* Spring */
+.animation-left-spring {
+    -webkit-animation: left-spring 0.3s ease-in-out;
+    animation: left-spring 0.3s ease-in-out;
+}
+.animation-right-spring {
+    -webkit-animation: right-spring 0.3s ease-in-out;
+    animation: right-spring 0.3s ease-in-out;
+}
+.animation-reverse {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+.animation-paused {
+    -webkit-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+}
+.animation-delay-1 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.animation-delay-2 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.animation-delay-3 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.animation-delay-4 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+.animation-delay-5 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+.animation-delay-6 {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
