@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/bootstrap.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<h1>员工列表</h1>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>用户名</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <volist name="users" id="u">
+        <tr>
+            <td>{{$u.id}}</td>
+            <td>{{$u.username}}</td>
+            <td>
+                <a href="{{:U('show',array('id'=>$u[id]))}}" class="circle">
+                    <span class="glyphicon glyphicon-play-circle"></span>
+                </a>
+            </td>
+        </tr>
+    </volist>
+    </tbody>
+</table>
+<button class="am-btn am-btn-block am-btn-secondary" id="more">加载更多</button>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/bootstrap/js/jquery.min.js"></script>
+<script>
+    $(function () {
+        var page = 1;
+        //点击加载更多
+//        $(document).on("click", "#more", function () {
+        //滚动加载
+        $(window).scroll(function () {
+            if ($(document).scrollTop() >= $(document).height() - $(window).height()) {
+                page++;
+                $.ajax({
+                    type: "POST",
+                    url: "{{:U('more')}}",
+                    data: {page: page},
+                    success: function (data) {
+                        if (data.info == '') {
+                            $("#more").attr('disabled', true).text('没有更多了')
+                        }
+                        var users = data.info
+                        $.each(users, function (k, v) {
+                            var html = ' <tr> ' +
+                                    '<td>' + v.id + '</td> ' +
+                                    '<td>' + v.username + '</td> ' +
+                                    '<td>' +
+                                    '<a href="/home/index/show/id/' + v.id + '" >' +
+                                    '<span class="glyphicon glyphicon-play-circle"></span>' +
+                                    '</a>' +
+                                    '</td>' +
+                                    '</tr>';
+                            $(html).appendTo('tbody').fadeIn(1000);
+                        })
+
+                    },
+                    datatype: "json"
+
+
+                })
+            }
+        })
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<extend name="./Application/Admin/View/layout/application.html"/>
+
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+
+                <div class="page-header">
+                    <br>
+                    <h1>职员信息列表
+                    </h1>
+                </div>
+
+                <div class="form-group">
+
+                    <div class="form-group">
+                        <form class="form-horizontal" role="form" method="get">
+                            <div class="col-sm-10">
+                                <input type="text" name="name" class="form-control" value="">
+                            </div>
+                            <button type="submit" class="btn btn-primary ">查询</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-10">
+                        <a href="__URL__/export" target="_blank" class="btn btn-default"><span
+                                class="am-icon-plus"></span> 导出excel
+                        </a>
+                        <span>
+                        <a href="{{:U('view')}}" target="_blank" class="btn btn-default"><span
+                                class="am-icon-plus"></span> 表格预览
+                        </a>
+                            </span>
+                    </div>
+
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">部门信息列表</div>
+                    <div class="panel-body">
+                        <form action="" method="post" id="form">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>名字</th>
+                                    <th>性别</th>
+                                    <th>照片</th>
+                                    <th>年龄</th>
+                                    <th>所属部门</th>
+                                    <th>入职时间</th>
+                                    <th>职务</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="persons" id="p">
+                                    <td class="name">{{$p.name}}</td>
+                                    <td class="sex">{{$p.sex}}</td>
+                                    <td><img src="{{$p.thumb}}" alt="" id="img_show" style="max-height: 100px;"></td>
+                                    <td>{{$p.age}}</td>
+                                    <td>{{$p.departments}}</td>
+                                    <td class="time">{{$p.time}}</td>
+                                    <td>{{$p.position}}</td>
+                                    <td>
+                                        <a href="{{:U('edit',array('id'=>$p[id]))}}" class="edit">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </a>
+                                        <a href="{{:U('add')}}" class="add">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                        </a>
+                                        <a href="{{:U('destroy',array('id'=>$p[id]))}}" class="destroy">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </a>
+                                    </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div class="pagination">
+                            {{$page}}
+                        </div>
+                    </div>
+                    <div class="panel-body"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 删除 -->
+    <div class="modal fade" id="destroy_link" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">删除文章</h4>
+                </div>
+                <div class="modal-body">
+                    <p>确定删除当前内容吗？</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <a class="btn btn-primary" id="confirm_destroy">确 定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</block>
+<block name="js">
+    <script>
+        $(function () {
+            //删除单条链接
+            $('.destroy').click(function () {
+                var id = $(this).parents("tr").data('id');
+                $("#confirm_destroy").attr("href", "/Admin/Article/destroy/id/" + id);
+            })
+            //多选
+            $("#checkAll").click(function () {
+                $(".check_destroy").prop("checked", this.checked);
+            })
+            //多选删除
+            $(".del_all_flinks").click(function () {
+                var length = $(".check_destroy:checked").length;
+                if (length == 0) {
+                    alert('你必须至少选中一条记录');
+                    return false;
+                }
+                $("#form").attr("action", "{{:U('destroy_checked')}}").submit();
+            })
+            //排序
+            $(".sort_flinks").click(function () {
+                $("#form").attr("action", "{{:U('sort_order')}}").submit();
+
+            })
+
+        })
+    </script>
+</block>

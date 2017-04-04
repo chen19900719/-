@@ -1,0 +1,384 @@
+[ 2017-03-22T10:39:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0028s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-03-22T10:40:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0029s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-03-22T10:41:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0024s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-22T10:42:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0055s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-22T10:43:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-22T10:44:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0036s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-03-22T10:45:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-22T10:46:02+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-22T10:47:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0033s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-22T10:48:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0027s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-03-22T11:16:57+08:00 ] 59.175.42.147 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-22T11:17:03+08:00 ] 59.175.42.147 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0023s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-03-22T11:27:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-03-22T11:28:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-03-22T11:29:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0035s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-03-22T11:30:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-03-22T11:31:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0018s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-22T11:32:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-03-22T11:33:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0006s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0039s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-03-22T11:34:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0012s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-22T11:35:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0003s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0028s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-03-22T11:36:01+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0052s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-03-22T12:11:08+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0021s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-22T12:12:12+08:00 ] 47.52.18.122 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0002s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('cm181123@163.com','cm181123@163.com') [ RunTime:0.0023s ]
+SQL: INSERT INTO `email` (`to`,`from`) VALUES ('15927693861@163.com','cm181123@163.com') [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+

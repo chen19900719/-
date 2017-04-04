@@ -1,0 +1,1947 @@
+[ 2017-03-20T11:10:22+08:00 ] 127.0.0.1 /Admin/User/reset_password.html?key=e6d295e612928d9eb78b0cb3edc3c6d8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006065s ]
+
+[ 2017-03-20T13:47:22+08:00 ] 127.0.0.1 /Admin/User/reset_password.html?key=e6d295e612928d9eb78b0cb3edc3c6d8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002208s ]
+
+[ 2017-03-20T13:52:39+08:00 ] 127.0.0.1 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-03-20T13:52:39+08:00 ] 127.0.0.1 /Admin/User/verify/?0.9811391510456553
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-03-20T13:52:44+08:00 ] 127.0.0.1 /Admin/User/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-03-20T13:52:46+08:00 ] 127.0.0.1 /Admin/User/verify/?0.4945290762131562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-03-20T14:17:11+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-03-20T14:17:13+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-03-20T14:17:15+08:00 ] 59.175.42.147 /Admin/User/verify/?0.24579505419402103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-03-20T14:18:06+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T14:18:13+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-03-20T14:18:43+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载控制器:Person
+
+[ 2017-03-20T14:33:46+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-03-20T14:33:55+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-03-20T14:34:09+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-03-20T14:34:12+08:00 ] 59.175.42.147 /Admin/User/verify/?0.7154403215907255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-03-20T14:36:48+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-03-20T14:36:56+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T14:39:17+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-03-20T14:45:19+08:00 ] 59.175.42.147 /admin/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Layout/application.html): failed to open stream: No such file or directory /var/www/team1/data/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-03-20T14:48:01+08:00 ] 59.175.42.147 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-20T14:48:53+08:00 ] 59.175.42.147 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-20T14:48:56+08:00 ] 59.175.42.147 /Admin/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-03-20T14:48:57+08:00 ] 59.175.42.147 /Admin/Person/Uploads/2017-03-16/58c9f9a719ed0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-03-20T14:48:58+08:00 ] 59.175.42.147 /Admin/Department/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `department` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='9' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Undefined variable: c /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-03-20T14:49:01+08:00 ] 59.175.42.147 /Admin/Person/trash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=0 ) ORDER BY id LIMIT 0,3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/dfff0742a684cfe0e8926c1ae2b8a488.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T14:49:01+08:00 ] 59.175.42.147 /Admin/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-03-20T14:49:02+08:00 ] 59.175.42.147 /Admin/Person/Uploads/2017-03-16/58c9f9a719ed0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-20T15:19:23+08:00 ] 59.175.42.147 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+ERR: Call to undefined function Admin\Controller\dum()
+
+[ 2017-03-20T15:19:36+08:00 ] 59.175.42.147 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+
+[ 2017-03-20T15:21:05+08:00 ] 59.175.42.147 /Admin/test/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0001s ]
+
+[ 2017-03-20T15:37:37+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-03-20T15:37:38+08:00 ] 59.175.42.147 /Admin/User/verify/?0.317255872559278
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-20T15:37:40+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0029s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/verify/?0.2306945672990539
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/verify/?0.2306945672990539
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T15:42:43+08:00 ] 59.175.42.147 /Admin/User/verify/?0.3518475360540916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-03-20T15:42:45+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T15:48:22+08:00 ] 59.175.42.147 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0020s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-03-20T15:48:22+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-03-20T15:48:22+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-03-20T15:48:22+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T15:48:22+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-03-20T15:49:29+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-03-20T15:49:29+08:00 ] 59.175.42.147 /Admin/User/verify/?0.7517667722895651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-03-20T15:49:34+08:00 ] 59.175.42.147 /Admin/User/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'chen' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T15:49:35+08:00 ] 59.175.42.147 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-03-20T15:49:39+08:00 ] 59.175.42.147 /Admin/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-03-20T15:49:39+08:00 ] 59.175.42.147 /Admin/Person/Uploads/2017-03-16/58c9f9a719ed0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-03-20T15:56:49+08:00 ] 59.175.42.147 /Admin/Department/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `department` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='1' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `department` WHERE ( 1=1 AND parent_id='9' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Undefined variable: c /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 96 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 99 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 109 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/2dbbfc7cc9356e8aaacba4b83c676c79.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-03-20T15:56:50+08:00 ] 59.175.42.147 /Admin/Person/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: name /var/www/team1/data/Application/Admin/Controller/PersonController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE ( info=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `person` WHERE ( info=1 ) AND `name` LIKE '%%' ORDER BY id LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='24' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /var/www/team1/data/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM think_department_person AS a, department AS b WHERE a.department_id = b.id AND a. person_id='25' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: user /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/team1/data/Application/Runtime/Cache/Admin/6caa630fa6058fb75e5eb223b3c8a866.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-03-20T15:56:50+08:00 ] 59.175.42.147 /Admin/Person/Uploads/2017-03-16/58c9f9a719ed0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-03-20T16:02:09+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-03-20T16:02:09+08:00 ] 59.175.42.147 /Admin/User/verify/?0.9456027894632357
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-03-20T16:02:11+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-03-20T16:07:12+08:00 ] 59.175.42.147 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0053s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-03-20T16:07:12+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-03-20T16:07:12+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T16:08:59+08:00 ] 47.52.18.122 /Admin/user/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: email /var/www/team1/data/Application/Admin/Controller/UserController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-03-20T16:10:37+08:00 ] 47.52.18.122 /Admin/user/email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-03-20T16:10:37+08:00 ] 47.52.18.122 /Admin/user/email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T16:10:45+08:00 ] 47.52.18.122 /Admin/user/email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-03-20T16:11:17+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T16:11:17+08:00 ] 59.175.42.147 /Admin/User/verify/?0.3403976075722097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-03-20T16:11:19+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T16:17:38+08:00 ] 59.175.42.147 /Admin/User/verify/?0.6324959052599435
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T16:22:33+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-03-20T16:22:38+08:00 ] 59.175.42.147 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-03-20T16:25:19+08:00 ] 59.175.42.147 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: email /var/www/team1/data/Application/Admin/Controller/UserController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+
+[ 2017-03-20T16:28:30+08:00 ] 112.65.193.13 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: email /var/www/team1/data/Application/Admin/Controller/UserController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `email` = null LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-03-20T16:30:23+08:00 ] 59.175.42.147 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0027s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-03-20T16:30:23+08:00 ] 59.175.42.147 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-03-20T18:16:24+08:00 ] 117.151.12.20 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-03-20T18:16:25+08:00 ] 117.151.12.20 /Admin/User/verify/?0.5298910779560686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-03-20T18:16:26+08:00 ] 117.151.12.20 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-03-20T18:16:35+08:00 ] 180.153.206.20 /Admin/User/verify/?0.5298910779560686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-03-20T18:21:28+08:00 ] 117.151.12.20 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0025s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-03-20T19:06:30+08:00 ] 101.226.33.217 /Admin/User/verify/?0.9456027894632357
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-03-20T19:18:39+08:00 ] 117.151.12.20 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-03-20T19:18:39+08:00 ] 117.151.12.20 /Admin/User/verify/?0.7324979001736542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-03-20T19:18:40+08:00 ] 117.151.12.20 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-03-20T19:18:49+08:00 ] 180.153.206.18 /Admin/User/verify/?0.7324979001736542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-03-20T19:23:42+08:00 ] 117.151.12.20 /Admin/User/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'cm181123@163.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0003s ]
+SQL: INSERT INTO `reset_password` (`key`,`email`) VALUES ('be63ea6b27ca9b644128e99fcca9d5ac','cm181123@163.com') [ RunTime:0.0044s ]
+NOTIC: [2] stream_socket_client(): unable to connect to smtp.163.com:25 (Connection timed out) /var/www/team1/data/ThinkPHP/Library/Com/Email/SMTP.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+
